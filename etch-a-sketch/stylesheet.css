@@ -1,0 +1,25 @@
+#container {
+    background-color: red;
+    height: 575px;
+    width: 900px;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+.unit {
+    background-color: black;
+    height: 12px;
+    width: 12px;
+    margin: 0px;
+    display: inline-block;
+    float: left
+}
+
+.color{
+	background-color: grey;
+    height: 12px;
+    width: 12px;
+    margin: 0px;
+    display: inline-block;
+    float: left
+
+}
