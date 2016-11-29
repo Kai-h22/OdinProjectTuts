@@ -5,8 +5,7 @@ $(document).ready(function() {
 	var idNum = 0;
     for(var x = 0; x < 12; x++) {
         for(var y = 0; y < 300; y++) {
-            var unit = $("<div class='unit'id='"+ idNum.toString()+"'></div>");
-            
+            var unit = $("<div class='unit'id='"+ idNum.toString()+"' style='background-color:black'></div>");
             unit.appendTo('#container');
             idNum+= 1;
 
@@ -14,6 +13,8 @@ $(document).ready(function() {
     }
 
     $(".unit").mouseover(function(){
-    	$(this.id).css("background-color", "yellow");
+    	$(this).css("background-color", "red");
+    	/*$(this.id).addClass(".color");*/
+    	
 	});
 });
